@@ -45,7 +45,7 @@ class Mongo {
             files.forEach((file) => {
                 console.log("downloading file0 :",file.path)
                 //console.log(file.content.toString('utf8'))
-                fs.writeFile("./download/" + fileName, file.content.toString('utf8'), err => {
+                fs.writeFile("./download/" + fileName, file.content, err => {
                     if(err) console.log("fs.write Err:",err);
                     console.log("downloading finished")
                 })
