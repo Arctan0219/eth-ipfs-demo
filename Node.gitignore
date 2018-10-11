@@ -33,7 +33,8 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+eth-ipfs-service/node_modules/
+my-eth-ipfs/node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -71,3 +72,6 @@ typings/
 
 # Serverless directories
 .serverless
+
+# Download test file
+eth-ipfs-service/download
